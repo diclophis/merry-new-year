@@ -1,1 +1,1 @@
-web: python -m SimpleHTTPServer $PORT
+web: bundle exec rackup -p $PORT
