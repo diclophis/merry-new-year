@@ -1,7 +1,10 @@
 
 use Rack::Static,
   :urls => [
-    "/"
+    "/index.html",
+    "/merry-new-year.ogg",
+    "/merry-new-year.gif",
+    "/favicon.ico"
   ],
   :root => "public"
 
